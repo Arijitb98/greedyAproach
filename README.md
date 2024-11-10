@@ -1,4 +1,4 @@
-Given an array of integers where each element represents the units of fuel available at each airport in a sequence, write a function minPlanesToReachLastAirport that determines the minimum number of planes required to reach the last airport.
+Given an array of integers where each element represents the units of fuel available at each airport in a sequence, write a function that determines the minimum number of planes required to reach the last airport.
 
 For example:
 fuel = [2, 3, 1, 1, 4]
