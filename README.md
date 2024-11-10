@@ -1,23 +1,28 @@
+Given an array of integers where each element represents the units of fuel available at each airport in a sequence, write a function minPlanesToReachLastAirport that determines the minimum number of planes required to reach the last airport.
+
 For example:
 fuel = [2, 3, 1, 1, 4]
+
 Here, starting at the first airport, you have 2 units of fuel.
 You can reach up to 2 airports ahead (index 1 or index 2).
 From each subsequent airport, use the available fuel units to reach further airports.
-Tasks:
 
+Tasks:
 Implement the function minPlanesToReachLastAirport(fuel) that returns the minimum number of planes needed to reach the last airport or -1 if it is not possible.
 Implement the function getInputFromUser to take user input as a string of comma-separated integers representing fuel at each airport.
 Explain how the algorithm handles the given example and edge cases, such as when fuel units are all zeroes.
-Constraints:
 
+Constraints:
 The input array will always have at least one airport.
 The fuel values are non-negative integers.
-Test Cases:
 
+Test Cases:
 Input: [2, 3, 1, 1, 4] -> Output: 2
 Input: [1, 0, 0, 0] -> Output: -1 (Cannot reach the last airport)
 
--------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+
 
 Based on the fuel at each airport, this code effectively determines the minimal number of planes required to reach the end airport.
 
