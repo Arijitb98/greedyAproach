@@ -34,4 +34,4 @@ This returns an array representing the fuel units for each airport.
 
 It calls the getInputFromUser function to get the fuel units for each airport.
 It then calls minPlanesToReachLastAirport with the obtained array.
-If the result is -1, it logs a message that the last airport is unreachable. Otherwise, it records the minimum number of aircraft required..
+If the result is -1, it logs a message that the last airport is unreachable. Otherwise, it records the minimum number of aircraft required.
